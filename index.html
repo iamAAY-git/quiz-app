@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Quiz App</h1>
+        </div>
+        <div class="quest-btn">
+            
+            <button  class="buttons" onclick="question(1)">1</button>
+            <button class="buttons"  onclick="question(2)">2</button>
+            <button class="buttons"  onclick="question(3)">3</button>
+            <button  class="buttons" onclick="question(4)">4</button>
+            <button class="buttons"  onclick="question(5)">5</button>
+            <button class="buttons"  onclick="question(6)">6</button>
+            <button class="buttons"  onclick="question(7)">7</button>
+            <button class="buttons"  onclick="question(8)">8</button>
+            <button  class="buttons" onclick="question(9)">9</button>
+            <button  class="buttons" onclick="question(10)">10</button>
+            <button  class="buttons" onclick="question(11)">11</button>
+            <button class="buttons"  onclick="question(12)">12</button>
+            <button class="buttons"  onclick="question(13)">13</button>
+            <button class="buttons"  onclick="question(14)">14</button>
+            <button class="buttons"  onclick="question(15)">15</button>
+            <button class="buttons"  onclick="question(16)">16</button>
+            <button class="buttons"  onclick="question(17)">17</button>
+            <button class="buttons"  onclick="question(18)">18</button>
+            <button class="buttons"  onclick="question(19)">19</button>
+            <button class="buttons"  onclick="question(20)">20</button>
+        </div>
+        <div class="display">
+           
+            <p id="questions"></p>
+            <p id="right-ans"></p>
+        </div>
+       <div class="options">
+        <h2>Options:</h2>
+       </div>
+       <div class="ans-btn button">
+        <button onclick="checkAnswer(1)"></button>
+        <button onclick="checkAnswer(2)"></button>
+        <button onclick="checkAnswer(3)"></button>
+        <button onclick="checkAnswer(4)"></button>
+       </div>
+    </div>
+    <div class="controls-container">
+        <button id="score-btn" onclick="showScore()">Show Score</button>
+        <button id="reset-btn" onclick="resetQuiz()">Reset</button>
+    </div>
+    
+    
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
