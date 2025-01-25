@@ -1,4 +1,3 @@
-
 const questions=[ 
     {
     question: "What is the capital of France?", 
@@ -26,7 +25,82 @@ const questions=[
     question: "What is the name of longest river in the world?", 
     answers: ["Amazon", "Ganga", "Karnali", "Nile"],
     correctAnswer: 4 // Correct answer is "Mars"
-}
+},
+{ 
+    question: "Which element has the chemical symbol 'O'?", 
+    answers: ["Oxygen", "Osmium", "Ozone", "Opium"],
+    correctAnswer: 1
+  },
+  { 
+    question: "Who developed the theory of relativity?", 
+    answers: ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+    correctAnswer: 2
+  },
+  { 
+    question: "What is the smallest prime number?", 
+    answers: ["1", "2", "3", "5"],
+    correctAnswer: 2
+  },
+  { 
+    question: "Which ocean is the largest?", 
+    answers: ["Atlantic", "Indian", "Pacific", "Arctic"],
+    correctAnswer: 3
+  },
+  { 
+    question: "Who wrote The Song Of Ice & Fire?", 
+    answers: ["Charles Dickens", "William Shakespeare", "George RR. Martin", "Mark Twain"],
+    correctAnswer: 3
+  },
+  { 
+    question: "What is the currency of Japan?", 
+    answers: ["Yuan", "Won", "Yen", "Ringgit"],
+    correctAnswer: 3
+  },
+  { 
+    question: "What is the longest mountain range in the world?", 
+    answers: ["Himalayas", "Andes", "Rockies", "Alps"],
+    correctAnswer: 2
+  },
+  { 
+    question: "What is the largest desert in the world?", 
+    answers: ["Sahara", "Gobi", "Kalahari", "Antarctic"],
+    correctAnswer: 4
+  },
+  { 
+    question: "What gas do plants absorb from the atmosphere for photosynthesis?", 
+    answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    correctAnswer: 2
+  },
+  { 
+    question: "What is the hardest natural substance on Earth?", 
+    answers: ["Gold", "Diamond", "Platinum", "Iron"],
+    correctAnswer: 2
+  },
+  { 
+    question: "What is the name of the largest moon of Saturn?", 
+    answers: ["Titan", "Europa", "Io", "Ganymede"],
+    correctAnswer: 1
+  },
+  { 
+    question: "Who is known as the father of computers?", 
+    answers: ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
+    correctAnswer: 1
+  },
+  { 
+    question: "Which animal is the fastest land animal?", 
+    answers: ["Cheetah", "Lion", "Tiger", "Elephant"],
+    correctAnswer: 1
+  },
+  { 
+    question: "What is the largest planet in our solar system?", 
+    answers: ["Earth", "Mars", "Jupiter", "Saturn"],
+    correctAnswer: 3
+  },
+  { 
+    question: "Which country is known as the Land of the Rising Sun?", 
+    answers: ["China", "South Korea", "Japan", "Thailand"],
+    correctAnswer: 3
+  }
 ];
 
 function question(index){
